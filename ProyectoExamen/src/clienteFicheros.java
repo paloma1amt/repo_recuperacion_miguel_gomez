@@ -274,7 +274,7 @@ public class clienteFicheros extends JFrame implements Runnable {
 	public static void main(String[] args) throws IOException {
 		int puerto = 44441;
 		//"192.168.0.195" localhost
-		Socket s = new Socket("127.0.0.1", puerto);		
+		Socket s = new Socket("10.13.0.2", puerto);		
 		clienteFicheros hiloC = new clienteFicheros(s);
 		hiloC.setBounds(0, 0, 540, 500);
 		hiloC.setVisible(true);
