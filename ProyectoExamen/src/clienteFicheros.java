@@ -280,5 +280,6 @@ public class clienteFicheros extends JFrame implements Runnable {
 		hiloC.setVisible(true);
 		new Thread(hiloC).start();
 	}// ..FIN main
+	//prueba
 
 }// .fin clase
